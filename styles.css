@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-bottom: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #e0e0e0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.trivia {
+    margin-bottom: 20px;
+}
+
+.trivia-item {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.trivia-item img {
+    width: 100%;
+    max-width: 500px;  /* 画像の幅を統一 */
+    height: auto;
+    object-fit: cover; /* 画像が切り取られないように中央を基準に調整 */
+    border-radius: 8px; /* 画像の角を丸める */
+    margin-top: 10px;
+}
+
+.outcomes {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.outcomes p {
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 60px;
+    width: 100%;
+}
